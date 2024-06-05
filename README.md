@@ -136,3 +136,5 @@ This project demonstrates how to build a real-time application using Django, Cha
 - **User Authentication**: Implement user authentication for more personalized real-time interactions.
 
 By continuously improving the application, it can provide a robust and scalable solution for real-time communication needs.
+
+![Screenshot from 2024-06-05 16-15-25](https://github.com/Arifshariar7/real-time-jokes/assets/23001498/6022fc94-4f5a-4a4a-9caf-46d66d29502b)
