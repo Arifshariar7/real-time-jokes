@@ -84,13 +84,20 @@ This project is a real-time jokes application built with Django, Django Channels
    CELERY_RESULT_BACKEND = 'redis://127.0.0.1:6379/0'
    ```
 
-5. **Run Celery Worker**:
+5.                    
+   **Run Celery Worker**:
 
    ```bash
    celery -A jokes_project worker --loglevel=info
    ```
+6.                    
+   **Run Celery beat**:
 
-6. **Run Django Application**:
+   ```bash
+   celery -A jokes_project beat -l INFO
+   ```
+
+7. **Run Django Application**:
 
    ```bash
    daphne -p 8000 jokes_project.asgi:application
